@@ -6,7 +6,7 @@ const digits = whatsappNumber.replace(/\D/g, "");
 if (/^55\d{10,11}$/.test(digits)) {
   document.querySelectorAll("[data-whatsapp-link]").forEach((link) => {
     link.href = `https://wa.me/${digits}`;
-    link.setAttribute("aria-label", "Abrir WhatsApp oficial de Isadora Guirelli em nova aba");
+    link.setAttribute("aria-label", "Abrir meu WhatsApp oficial em nova aba");
     link.hidden = false;
   });
   document.querySelectorAll("[data-whatsapp-status]").forEach((status) => {
@@ -16,6 +16,6 @@ if (/^55\d{10,11}$/.test(digits)) {
     label.textContent = "DISPONÍVEL AGORA";
   });
   document.querySelectorAll("[data-whatsapp-description]").forEach((description) => {
-    description.textContent = "Envie sua mensagem diretamente pelo WhatsApp.";
+    description.textContent = "Envie-me uma mensagem diretamente pelo WhatsApp.";
   });
 }

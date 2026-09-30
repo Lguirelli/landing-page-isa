@@ -7,6 +7,8 @@
   --text: #262e34;
   --display: "Cormorant Garamond", Georgia, serif;
   --body: Montserrat, Arial, sans-serif;
+  --type-body: clamp(0.9375rem, 0.86rem + 0.35vw, 1.125rem);
+  --type-small: clamp(0.875rem, 0.82rem + 0.25vw, 1rem);
 }
 * {
   box-sizing: border-box;
@@ -19,7 +21,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font: 400 15px/1.55 var(--body);
+  font: 400 var(--type-body)/1.55 var(--body);
   overflow-x: clip;
 }
 a {
@@ -235,6 +237,7 @@ button:focus-visible {
   line-height: 1.35;
   font-weight: 600;
   margin-top: 10px;
+  overflow-wrap: anywhere;
 }
 .section-head {
   display: flex;
@@ -675,6 +678,18 @@ button:focus-visible {
   }
 }
 @media (max-width: 370px) {
+  .stats {
+    grid-template-columns: 1fr;
+  }
+  .stat,
+  .stat:nth-child(2) {
+    border-right: 0;
+    border-bottom: 1px solid #f3f0eb77;
+    padding-block: 12px;
+  }
+  .stat:last-child {
+    border-bottom: 0;
+  }
   .talk {
     font-size: 0;
     min-width: 44px;
@@ -1036,4 +1051,61 @@ button:focus-visible {
 .page-hero-contact h1 {
   font-size: clamp(3rem, 4.7vw, 5.2rem);
   max-width: none;
+}
+
+/* Escala de leitura fluida para textos, rótulos e botões. */
+.hero p,
+.intro,
+.page-hero p,
+.detail-card p,
+.contact-card p,
+.contact-intro p,
+.note {
+  font-size: var(--type-body);
+}
+.nav a,
+.talk,
+.eyebrow,
+.view-work,
+.stat span,
+.section-head a,
+.feature p,
+.service h3,
+.service p,
+.process h3,
+.process p,
+.process a,
+.footer p,
+.footer a,
+.footer small,
+.footer-links,
+.contact-card a,
+.contact-pending,
+.cta-band a {
+  font-size: var(--type-small);
+}
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+p {
+  overflow-wrap: break-word;
+}
+.feature h3 {
+  font-size: clamp(2rem, 3.2vw, 4rem);
+}
+.process .mark {
+  font-size: clamp(2rem, 2.5vw, 2.6rem);
+}
+@media (max-width: 520px) {
+  .page-section h2 {
+    font-size: clamp(2rem, 8.5vw, 3rem);
+  }
+  .detail-card h3 {
+    font-size: clamp(1.5rem, 7vw, 2rem);
+  }
+  .external-contact h2 {
+    font-size: clamp(2rem, 8vw, 2.8rem);
+  }
 }
