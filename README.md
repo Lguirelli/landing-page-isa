@@ -1,9 +1,19 @@
-# Landing page — Isadora Guirelli
+# Isadora Guirelli — cuidado capilar
 
-Abra `index.html` no navegador. Para um servidor local, execute `npm run dev`.
+Site estático com página inicial e cinco subpáginas: Sinais, Cuidados, Sobre, Abordagem e Contato.
 
-Esta versão preserva a composição da referência `landing page isa.jpg`: header horizontal, hero com texto amplo à esquerda e imagem à direita, faixa de quatro informações, três cards, bloco de serviços, faixa de etapas e rodapé com contato. A paleta, a logo e as fontes seguem `LANDING_BRAND_GUIDE.md`.
+Para visualizar localmente, execute `npm run dev` e abra `http://localhost:4173`. Também é possível abrir `index.html` diretamente no navegador.
 
-O retrato do hero é uma imagem editorial ilustrativa, não uma fotografia de Isadora nem uma demonstração de resultado. O contato usa o perfil público https://www.instagram.com/isadoraguirelli/; o texto de Serra Negra e da atuação em tricologia foi conferido nesse perfil. Para a educação sobre queda capilar e a necessidade de avaliação individual, foram consultados https://www.aad.org/public/diseases/hair-loss/insider/shedding e https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat. Não foram incluídas credenciais médicas, procedimentos ou promessas de resultado.
+O contato externo usa o perfil público [@isadoraguirelli](https://www.instagram.com/isadoraguirelli/). Antes de publicar, Isadora deve revisar a descrição do atendimento, a disponibilidade em Serra Negra e confirmar que o Instagram é o canal desejado.
 
-Antes de publicar, Isadora deve revisar a descrição do atendimento e confirmar se o Instagram é o canal de conversão desejado.
+A fotografia de Isadora em seu consultório aparece apenas na página inicial. As cinco subpáginas usam ilustrações editoriais neutras criadas para este site. O conteúdo é informativo; não inclui promessas de resultado nem substitui avaliação dermatológica.
+
+## Base informativa
+
+A redação sobre sinais, histórico e encaminhamento foi revisada com base em fontes da Academia Americana de Dermatologia:
+
+- https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat
+- https://www.aad.org/public/diseases/hair-loss/insider/begin
+- https://www.aad.org/public/everyday-care/itchy-skin/itch-relief/relieve-scalp-itch
+
+Essas fontes descrevem a importância do histórico de saúde, da observação do couro cabeludo e da avaliação dermatológica para diagnóstico e tratamento quando indicados.
