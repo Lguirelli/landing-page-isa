@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Largura adicional 280",
+    "detail": "6 páginas: sem extravasamento ou sobreposição no cabeçalho",
+    "status": "pass"
+  },
+  {
+    "name": "Largura adicional 360",
+    "detail": "6 páginas: sem extravasamento ou sobreposição no cabeçalho",
+    "status": "pass"
+  },
+  {
+    "name": "Largura adicional 521",
+    "detail": "6 páginas: sem extravasamento ou sobreposição no cabeçalho",
+    "status": "pass"
+  },
+  {
+    "name": "Largura adicional 600",
+    "detail": "6 páginas: sem extravasamento ou sobreposição no cabeçalho",
+    "status": "pass"
+  },
+  {
+    "name": "Largura adicional 759",
+    "detail": "6 páginas: sem extravasamento ou sobreposição no cabeçalho",
+    "status": "pass"
+  },
+  {
+    "name": "Largura adicional 760",
+    "detail": "6 páginas: sem extravasamento ou sobreposição no cabeçalho",
+    "status": "pass"
+  },
+  {
+    "name": "Largura adicional 761",
+    "detail": "6 páginas: sem extravasamento ou sobreposição no cabeçalho",
+    "status": "pass"
+  },
+  {
+    "name": "Largura adicional 1024",
+    "detail": "6 páginas: sem extravasamento ou sobreposição no cabeçalho",
+    "status": "pass"
+  },
+  {
+    "name": "Largura adicional 1200",
+    "detail": "6 páginas: sem extravasamento ou sobreposição no cabeçalho",
+    "status": "pass"
+  },
+  {
+    "name": "Largura adicional 1201",
+    "detail": "6 páginas: sem extravasamento ou sobreposição no cabeçalho",
+    "status": "pass"
+  },
+  {
+    "name": "Largura adicional 1280",
+    "detail": "6 páginas: sem extravasamento ou sobreposição no cabeçalho",
+    "status": "pass"
+  },
+  {
+    "name": "Largura adicional 1920",
+    "detail": "6 páginas: sem extravasamento ou sobreposição no cabeçalho",
+    "status": "pass"
+  },
+  {
+    "name": "Navegação móvel index",
+    "detail": "5 destinos por clique; menu recolhido após navegar",
+    "status": "pass"
+  },
+  {
+    "name": "Links locais index",
+    "detail": "Destinos HTTP e âncoras existentes",
+    "status": "pass"
+  },
+  {
+    "name": "CTAs internos index",
+    "detail": "Botões e chamadas existentes chegam ao destino previsto",
+    "status": "pass"
+  },
+  {
+    "name": "Navegação móvel sinais",
+    "detail": "5 destinos por clique; menu recolhido após navegar",
+    "status": "pass"
+  },
+  {
+    "name": "Links locais sinais",
+    "detail": "Destinos HTTP e âncoras existentes",
+    "status": "pass"
+  },
+  {
+    "name": "CTAs internos sinais",
+    "detail": "Botões e chamadas existentes chegam ao destino previsto",
+    "status": "pass"
+  },
+  {
+    "name": "Navegação móvel cuidados",
+    "detail": "5 destinos por clique; menu recolhido após navegar",
+    "status": "pass"
+  },
+  {
+    "name": "Links locais cuidados",
+    "detail": "Destinos HTTP e âncoras existentes",
+    "status": "pass"
+  },
+  {
+    "name": "CTAs internos cuidados",
+    "detail": "Botões e chamadas existentes chegam ao destino previsto",
+    "status": "pass"
+  },
+  {
+    "name": "Navegação móvel sobre",
+    "detail": "5 destinos por clique; menu recolhido após navegar",
+    "status": "pass"
+  },
+  {
+    "name": "Links locais sobre",
+    "detail": "Destinos HTTP e âncoras existentes",
+    "status": "pass"
+  },
+  {
+    "name": "CTAs internos sobre",
+    "detail": "Botões e chamadas existentes chegam ao destino previsto",
+    "status": "pass"
+  },
+  {
+    "name": "Navegação móvel abordagem",
+    "detail": "5 destinos por clique; menu recolhido após navegar",
+    "status": "pass"
+  },
+  {
+    "name": "Links locais abordagem",
+    "detail": "Destinos HTTP e âncoras existentes",
+    "status": "pass"
+  },
+  {
+    "name": "CTAs internos abordagem",
+    "detail": "Botões e chamadas existentes chegam ao destino previsto",
+    "status": "pass"
+  },
+  {
+    "name": "Navegação móvel contato",
+    "detail": "5 destinos por clique; menu recolhido após navegar",
+    "status": "pass"
+  },
+  {
+    "name": "Links locais contato",
+    "detail": "Destinos HTTP e âncoras existentes",
+    "status": "pass"
+  },
+  {
+    "name": "CTAs internos contato",
+    "detail": "Botões e chamadas existentes chegam ao destino previsto",
+    "status": "pass"
+  },
+  {
+    "name": "Menu em tela baixa",
+    "detail": "Contato alcançável com rolagem do menu em 390×280",
+    "status": "pass"
+  },
+  {
+    "name": "Escape",
+    "detail": "Fecha menu e devolve foco ao botão",
+    "status": "pass"
+  },
+  {
+    "name": "Clique fora",
+    "detail": "Fecha menu",
+    "status": "pass"
+  },
+  {
+    "name": "Troca de orientação e tamanho",
+    "detail": "Menu não reabre com estado antigo",
+    "status": "pass"
+  },
+  {
+    "name": "Saída por teclado",
+    "detail": "Tab para fora do cabeçalho recolhe menu",
+    "status": "pass"
+  },
+  {
+    "name": "Pular para conteúdo",
+    "detail": "Link acessível por teclado e âncora funcional",
+    "status": "pass"
+  },
+  {
+    "name": "Links externos index",
+    "detail": "Clique abre nova aba correta; destino interceptado localmente sem enviar mensagem",
+    "status": "pass"
+  },
+  {
+    "name": "Links externos sinais",
+    "detail": "Clique abre nova aba correta; destino interceptado localmente sem enviar mensagem",
+    "status": "pass"
+  },
+  {
+    "name": "Links externos cuidados",
+    "detail": "Clique abre nova aba correta; destino interceptado localmente sem enviar mensagem",
+    "status": "pass"
+  },
+  {
+    "name": "Links externos sobre",
+    "detail": "Clique abre nova aba correta; destino interceptado localmente sem enviar mensagem",
+    "status": "pass"
+  },
+  {
+    "name": "Links externos abordagem",
+    "detail": "Clique abre nova aba correta; destino interceptado localmente sem enviar mensagem",
+    "status": "pass"
+  },
+  {
+    "name": "Links externos contato",
+    "detail": "Clique abre nova aba correta; destino interceptado localmente sem enviar mensagem",
+    "status": "pass"
+  },
+  {
+    "name": "Movimento reduzido",
+    "detail": "Preferência respeitada",
+    "status": "pass"
+  }
+]

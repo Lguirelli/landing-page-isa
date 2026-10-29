@@ -1,0 +1,2171 @@
+[
+  {
+    "name": "index",
+    "width": 320,
+    "height": 740,
+    "viewport": [
+      320,
+      740
+    ],
+    "documentWidth": 320,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/isadora-guirelli-consultorio.png",
+        "ok": true
+      }
+    ],
+    "sections": 6,
+    "fonts": "loaded",
+    "headings": [
+      "SAÚDE CAPILAR",
+      "ESCUTE OS SINAIS. CUIDE DE VOCÊ.",
+      "SINAIS DE ATENÇÃO",
+      "QUEDA CAPILAR",
+      "MENOS VOLUME",
+      "COURO CABELUDO",
+      "SUA HISTÓRIA",
+      "OLHAR ATENTO",
+      "CUIDADOS DO DIA A DIA",
+      "PRÓXIMOS PASSOS",
+      "COMO FUNCIONA",
+      "CONVERSA INICIAL",
+      "CONTEXTO E ROTINA",
+      "CAMINHO DE CUIDADO",
+      "ACOMPANHAMENTO",
+      "VAMOS CONVERSAR?",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "sinais",
+    "width": 320,
+    "height": 740,
+    "viewport": [
+      320,
+      740
+    ],
+    "documentWidth": 320,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sinais-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "O que mudou?",
+      "O que observar",
+      "Queda de fios",
+      "Afinamento e volume",
+      "Couro cabeludo",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "cuidados",
+    "width": 320,
+    "height": 740,
+    "viewport": [
+      320,
+      740
+    ],
+    "documentWidth": 320,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/cuidados-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Cuidar começa por entender",
+      "Um cuidado que começa por você",
+      "Escuta de verdade",
+      "Rotina capilar",
+      "Próximos passos",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "sobre",
+    "width": 320,
+    "height": 740,
+    "viewport": [
+      320,
+      740
+    ],
+    "documentWidth": 320,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sobre-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Escuta antes da orientação",
+      "Um espaço para ser ouvido",
+      "Entender sua história",
+      "Olhar com atenção",
+      "Orientar o caminho",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "abordagem",
+    "width": 320,
+    "height": 740,
+    "viewport": [
+      320,
+      740
+    ],
+    "documentWidth": 320,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/abordagem-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Como funciona o cuidado",
+      "Seu caminho de cuidado",
+      "01 · Conversa inicial",
+      "02 · Contexto e rotina",
+      "03 · Próximos passos",
+      "04 · Acompanhamento",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "contato",
+    "width": 320,
+    "height": 740,
+    "viewport": [
+      320,
+      740
+    ],
+    "documentWidth": 320,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/contato-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Vamos conversar?",
+      "Como falar comigo",
+      "Conte-me o que percebeu",
+      "Consulte os horários",
+      "Cuide da sua saúde",
+      "FALE COMIGO",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "index",
+    "width": 390,
+    "height": 844,
+    "viewport": [
+      390,
+      844
+    ],
+    "documentWidth": 390,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/isadora-guirelli-consultorio.png",
+        "ok": true
+      }
+    ],
+    "sections": 6,
+    "fonts": "loaded",
+    "headings": [
+      "SAÚDE CAPILAR",
+      "ESCUTE OS SINAIS. CUIDE DE VOCÊ.",
+      "SINAIS DE ATENÇÃO",
+      "QUEDA CAPILAR",
+      "MENOS VOLUME",
+      "COURO CABELUDO",
+      "SUA HISTÓRIA",
+      "OLHAR ATENTO",
+      "CUIDADOS DO DIA A DIA",
+      "PRÓXIMOS PASSOS",
+      "COMO FUNCIONA",
+      "CONVERSA INICIAL",
+      "CONTEXTO E ROTINA",
+      "CAMINHO DE CUIDADO",
+      "ACOMPANHAMENTO",
+      "VAMOS CONVERSAR?",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "sinais",
+    "width": 390,
+    "height": 844,
+    "viewport": [
+      390,
+      844
+    ],
+    "documentWidth": 390,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sinais-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "O que mudou?",
+      "O que observar",
+      "Queda de fios",
+      "Afinamento e volume",
+      "Couro cabeludo",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "cuidados",
+    "width": 390,
+    "height": 844,
+    "viewport": [
+      390,
+      844
+    ],
+    "documentWidth": 390,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/cuidados-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Cuidar começa por entender",
+      "Um cuidado que começa por você",
+      "Escuta de verdade",
+      "Rotina capilar",
+      "Próximos passos",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "sobre",
+    "width": 390,
+    "height": 844,
+    "viewport": [
+      390,
+      844
+    ],
+    "documentWidth": 390,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sobre-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Escuta antes da orientação",
+      "Um espaço para ser ouvido",
+      "Entender sua história",
+      "Olhar com atenção",
+      "Orientar o caminho",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "abordagem",
+    "width": 390,
+    "height": 844,
+    "viewport": [
+      390,
+      844
+    ],
+    "documentWidth": 390,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/abordagem-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Como funciona o cuidado",
+      "Seu caminho de cuidado",
+      "01 · Conversa inicial",
+      "02 · Contexto e rotina",
+      "03 · Próximos passos",
+      "04 · Acompanhamento",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "contato",
+    "width": 390,
+    "height": 844,
+    "viewport": [
+      390,
+      844
+    ],
+    "documentWidth": 390,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/contato-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Vamos conversar?",
+      "Como falar comigo",
+      "Conte-me o que percebeu",
+      "Consulte os horários",
+      "Cuide da sua saúde",
+      "FALE COMIGO",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "index",
+    "width": 768,
+    "height": 1024,
+    "viewport": [
+      768,
+      1024
+    ],
+    "documentWidth": 768,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/isadora-guirelli-consultorio.png",
+        "ok": true
+      }
+    ],
+    "sections": 6,
+    "fonts": "loaded",
+    "headings": [
+      "SAÚDE CAPILAR",
+      "ESCUTE OS SINAIS. CUIDE DE VOCÊ.",
+      "SINAIS DE ATENÇÃO",
+      "QUEDA CAPILAR",
+      "MENOS VOLUME",
+      "COURO CABELUDO",
+      "SUA HISTÓRIA",
+      "OLHAR ATENTO",
+      "CUIDADOS DO DIA A DIA",
+      "PRÓXIMOS PASSOS",
+      "COMO FUNCIONA",
+      "CONVERSA INICIAL",
+      "CONTEXTO E ROTINA",
+      "CAMINHO DE CUIDADO",
+      "ACOMPANHAMENTO",
+      "VAMOS CONVERSAR?",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "sinais",
+    "width": 768,
+    "height": 1024,
+    "viewport": [
+      768,
+      1024
+    ],
+    "documentWidth": 768,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sinais-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "O que mudou?",
+      "O que observar",
+      "Queda de fios",
+      "Afinamento e volume",
+      "Couro cabeludo",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "cuidados",
+    "width": 768,
+    "height": 1024,
+    "viewport": [
+      768,
+      1024
+    ],
+    "documentWidth": 768,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/cuidados-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Cuidar começa por entender",
+      "Um cuidado que começa por você",
+      "Escuta de verdade",
+      "Rotina capilar",
+      "Próximos passos",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "sobre",
+    "width": 768,
+    "height": 1024,
+    "viewport": [
+      768,
+      1024
+    ],
+    "documentWidth": 768,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sobre-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Escuta antes da orientação",
+      "Um espaço para ser ouvido",
+      "Entender sua história",
+      "Olhar com atenção",
+      "Orientar o caminho",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "abordagem",
+    "width": 768,
+    "height": 1024,
+    "viewport": [
+      768,
+      1024
+    ],
+    "documentWidth": 768,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/abordagem-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Como funciona o cuidado",
+      "Seu caminho de cuidado",
+      "01 · Conversa inicial",
+      "02 · Contexto e rotina",
+      "03 · Próximos passos",
+      "04 · Acompanhamento",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "contato",
+    "width": 768,
+    "height": 1024,
+    "viewport": [
+      768,
+      1024
+    ],
+    "documentWidth": 768,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/contato-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Vamos conversar?",
+      "Como falar comigo",
+      "Conte-me o que percebeu",
+      "Consulte os horários",
+      "Cuide da sua saúde",
+      "FALE COMIGO",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "index",
+    "width": 1440,
+    "height": 900,
+    "viewport": [
+      1440,
+      900
+    ],
+    "documentWidth": 1440,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/isadora-guirelli-consultorio.png",
+        "ok": true
+      }
+    ],
+    "sections": 6,
+    "fonts": "loaded",
+    "headings": [
+      "SAÚDE CAPILAR",
+      "ESCUTE OS SINAIS. CUIDE DE VOCÊ.",
+      "SINAIS DE ATENÇÃO",
+      "QUEDA CAPILAR",
+      "MENOS VOLUME",
+      "COURO CABELUDO",
+      "SUA HISTÓRIA",
+      "OLHAR ATENTO",
+      "CUIDADOS DO DIA A DIA",
+      "PRÓXIMOS PASSOS",
+      "COMO FUNCIONA",
+      "CONVERSA INICIAL",
+      "CONTEXTO E ROTINA",
+      "CAMINHO DE CUIDADO",
+      "ACOMPANHAMENTO",
+      "VAMOS CONVERSAR?",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "sinais",
+    "width": 1440,
+    "height": 900,
+    "viewport": [
+      1440,
+      900
+    ],
+    "documentWidth": 1440,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sinais-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "O que mudou?",
+      "O que observar",
+      "Queda de fios",
+      "Afinamento e volume",
+      "Couro cabeludo",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "cuidados",
+    "width": 1440,
+    "height": 900,
+    "viewport": [
+      1440,
+      900
+    ],
+    "documentWidth": 1440,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/cuidados-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Cuidar começa por entender",
+      "Um cuidado que começa por você",
+      "Escuta de verdade",
+      "Rotina capilar",
+      "Próximos passos",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "sobre",
+    "width": 1440,
+    "height": 900,
+    "viewport": [
+      1440,
+      900
+    ],
+    "documentWidth": 1440,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sobre-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Escuta antes da orientação",
+      "Um espaço para ser ouvido",
+      "Entender sua história",
+      "Olhar com atenção",
+      "Orientar o caminho",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "abordagem",
+    "width": 1440,
+    "height": 900,
+    "viewport": [
+      1440,
+      900
+    ],
+    "documentWidth": 1440,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/abordagem-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Como funciona o cuidado",
+      "Seu caminho de cuidado",
+      "01 · Conversa inicial",
+      "02 · Contexto e rotina",
+      "03 · Próximos passos",
+      "04 · Acompanhamento",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "contato",
+    "width": 1440,
+    "height": 900,
+    "viewport": [
+      1440,
+      900
+    ],
+    "documentWidth": 1440,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/contato-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Vamos conversar?",
+      "Como falar comigo",
+      "Conte-me o que percebeu",
+      "Consulte os horários",
+      "Cuide da sua saúde",
+      "FALE COMIGO",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "index",
+    "width": 2560,
+    "height": 1080,
+    "viewport": [
+      2560,
+      1080
+    ],
+    "documentWidth": 2560,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/isadora-guirelli-consultorio.png",
+        "ok": true
+      }
+    ],
+    "sections": 6,
+    "fonts": "loaded",
+    "headings": [
+      "SAÚDE CAPILAR",
+      "ESCUTE OS SINAIS. CUIDE DE VOCÊ.",
+      "SINAIS DE ATENÇÃO",
+      "QUEDA CAPILAR",
+      "MENOS VOLUME",
+      "COURO CABELUDO",
+      "SUA HISTÓRIA",
+      "OLHAR ATENTO",
+      "CUIDADOS DO DIA A DIA",
+      "PRÓXIMOS PASSOS",
+      "COMO FUNCIONA",
+      "CONVERSA INICIAL",
+      "CONTEXTO E ROTINA",
+      "CAMINHO DE CUIDADO",
+      "ACOMPANHAMENTO",
+      "VAMOS CONVERSAR?",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "sinais",
+    "width": 2560,
+    "height": 1080,
+    "viewport": [
+      2560,
+      1080
+    ],
+    "documentWidth": 2560,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sinais-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "O que mudou?",
+      "O que observar",
+      "Queda de fios",
+      "Afinamento e volume",
+      "Couro cabeludo",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "cuidados",
+    "width": 2560,
+    "height": 1080,
+    "viewport": [
+      2560,
+      1080
+    ],
+    "documentWidth": 2560,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/cuidados-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Cuidar começa por entender",
+      "Um cuidado que começa por você",
+      "Escuta de verdade",
+      "Rotina capilar",
+      "Próximos passos",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "sobre",
+    "width": 2560,
+    "height": 1080,
+    "viewport": [
+      2560,
+      1080
+    ],
+    "documentWidth": 2560,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sobre-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Escuta antes da orientação",
+      "Um espaço para ser ouvido",
+      "Entender sua história",
+      "Olhar com atenção",
+      "Orientar o caminho",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "abordagem",
+    "width": 2560,
+    "height": 1080,
+    "viewport": [
+      2560,
+      1080
+    ],
+    "documentWidth": 2560,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/abordagem-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Como funciona o cuidado",
+      "Seu caminho de cuidado",
+      "01 · Conversa inicial",
+      "02 · Contexto e rotina",
+      "03 · Próximos passos",
+      "04 · Acompanhamento",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "contato",
+    "width": 2560,
+    "height": 1080,
+    "viewport": [
+      2560,
+      1080
+    ],
+    "documentWidth": 2560,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/contato-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Vamos conversar?",
+      "Como falar comigo",
+      "Conte-me o que percebeu",
+      "Consulte os horários",
+      "Cuide da sua saúde",
+      "FALE COMIGO",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "index",
+    "width": 520,
+    "height": 740,
+    "viewport": [
+      520,
+      740
+    ],
+    "documentWidth": 520,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/isadora-guirelli-consultorio.png",
+        "ok": true
+      }
+    ],
+    "sections": 6,
+    "fonts": "loaded",
+    "headings": [
+      "SAÚDE CAPILAR",
+      "ESCUTE OS SINAIS. CUIDE DE VOCÊ.",
+      "SINAIS DE ATENÇÃO",
+      "QUEDA CAPILAR",
+      "MENOS VOLUME",
+      "COURO CABELUDO",
+      "SUA HISTÓRIA",
+      "OLHAR ATENTO",
+      "CUIDADOS DO DIA A DIA",
+      "PRÓXIMOS PASSOS",
+      "COMO FUNCIONA",
+      "CONVERSA INICIAL",
+      "CONTEXTO E ROTINA",
+      "CAMINHO DE CUIDADO",
+      "ACOMPANHAMENTO",
+      "VAMOS CONVERSAR?",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "sinais",
+    "width": 520,
+    "height": 740,
+    "viewport": [
+      520,
+      740
+    ],
+    "documentWidth": 520,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sinais-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "O que mudou?",
+      "O que observar",
+      "Queda de fios",
+      "Afinamento e volume",
+      "Couro cabeludo",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "cuidados",
+    "width": 520,
+    "height": 740,
+    "viewport": [
+      520,
+      740
+    ],
+    "documentWidth": 520,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/cuidados-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Cuidar começa por entender",
+      "Um cuidado que começa por você",
+      "Escuta de verdade",
+      "Rotina capilar",
+      "Próximos passos",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "sobre",
+    "width": 520,
+    "height": 740,
+    "viewport": [
+      520,
+      740
+    ],
+    "documentWidth": 520,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sobre-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Escuta antes da orientação",
+      "Um espaço para ser ouvido",
+      "Entender sua história",
+      "Olhar com atenção",
+      "Orientar o caminho",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "abordagem",
+    "width": 520,
+    "height": 740,
+    "viewport": [
+      520,
+      740
+    ],
+    "documentWidth": 520,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/abordagem-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Como funciona o cuidado",
+      "Seu caminho de cuidado",
+      "01 · Conversa inicial",
+      "02 · Contexto e rotina",
+      "03 · Próximos passos",
+      "04 · Acompanhamento",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "contato",
+    "width": 520,
+    "height": 740,
+    "viewport": [
+      520,
+      740
+    ],
+    "documentWidth": 520,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/contato-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Vamos conversar?",
+      "Como falar comigo",
+      "Conte-me o que percebeu",
+      "Consulte os horários",
+      "Cuide da sua saúde",
+      "FALE COMIGO",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "index",
+    "width": 1050,
+    "height": 800,
+    "viewport": [
+      1050,
+      800
+    ],
+    "documentWidth": 1050,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/isadora-guirelli-consultorio.png",
+        "ok": true
+      }
+    ],
+    "sections": 6,
+    "fonts": "loaded",
+    "headings": [
+      "SAÚDE CAPILAR",
+      "ESCUTE OS SINAIS. CUIDE DE VOCÊ.",
+      "SINAIS DE ATENÇÃO",
+      "QUEDA CAPILAR",
+      "MENOS VOLUME",
+      "COURO CABELUDO",
+      "SUA HISTÓRIA",
+      "OLHAR ATENTO",
+      "CUIDADOS DO DIA A DIA",
+      "PRÓXIMOS PASSOS",
+      "COMO FUNCIONA",
+      "CONVERSA INICIAL",
+      "CONTEXTO E ROTINA",
+      "CAMINHO DE CUIDADO",
+      "ACOMPANHAMENTO",
+      "VAMOS CONVERSAR?",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "sinais",
+    "width": 1050,
+    "height": 800,
+    "viewport": [
+      1050,
+      800
+    ],
+    "documentWidth": 1050,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sinais-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "O que mudou?",
+      "O que observar",
+      "Queda de fios",
+      "Afinamento e volume",
+      "Couro cabeludo",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "cuidados",
+    "width": 1050,
+    "height": 800,
+    "viewport": [
+      1050,
+      800
+    ],
+    "documentWidth": 1050,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/cuidados-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Cuidar começa por entender",
+      "Um cuidado que começa por você",
+      "Escuta de verdade",
+      "Rotina capilar",
+      "Próximos passos",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "sobre",
+    "width": 1050,
+    "height": 800,
+    "viewport": [
+      1050,
+      800
+    ],
+    "documentWidth": 1050,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sobre-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Escuta antes da orientação",
+      "Um espaço para ser ouvido",
+      "Entender sua história",
+      "Olhar com atenção",
+      "Orientar o caminho",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "abordagem",
+    "width": 1050,
+    "height": 800,
+    "viewport": [
+      1050,
+      800
+    ],
+    "documentWidth": 1050,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/abordagem-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Como funciona o cuidado",
+      "Seu caminho de cuidado",
+      "01 · Conversa inicial",
+      "02 · Contexto e rotina",
+      "03 · Próximos passos",
+      "04 · Acompanhamento",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "contato",
+    "width": 1050,
+    "height": 800,
+    "viewport": [
+      1050,
+      800
+    ],
+    "documentWidth": 1050,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/contato-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Vamos conversar?",
+      "Como falar comigo",
+      "Conte-me o que percebeu",
+      "Consulte os horários",
+      "Cuide da sua saúde",
+      "FALE COMIGO",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "index",
+    "width": 1051,
+    "height": 800,
+    "viewport": [
+      1051,
+      800
+    ],
+    "documentWidth": 1051,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/isadora-guirelli-consultorio.png",
+        "ok": true
+      }
+    ],
+    "sections": 6,
+    "fonts": "loaded",
+    "headings": [
+      "SAÚDE CAPILAR",
+      "ESCUTE OS SINAIS. CUIDE DE VOCÊ.",
+      "SINAIS DE ATENÇÃO",
+      "QUEDA CAPILAR",
+      "MENOS VOLUME",
+      "COURO CABELUDO",
+      "SUA HISTÓRIA",
+      "OLHAR ATENTO",
+      "CUIDADOS DO DIA A DIA",
+      "PRÓXIMOS PASSOS",
+      "COMO FUNCIONA",
+      "CONVERSA INICIAL",
+      "CONTEXTO E ROTINA",
+      "CAMINHO DE CUIDADO",
+      "ACOMPANHAMENTO",
+      "VAMOS CONVERSAR?",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "sinais",
+    "width": 1051,
+    "height": 800,
+    "viewport": [
+      1051,
+      800
+    ],
+    "documentWidth": 1051,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sinais-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "O que mudou?",
+      "O que observar",
+      "Queda de fios",
+      "Afinamento e volume",
+      "Couro cabeludo",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "cuidados",
+    "width": 1051,
+    "height": 800,
+    "viewport": [
+      1051,
+      800
+    ],
+    "documentWidth": 1051,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/cuidados-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Cuidar começa por entender",
+      "Um cuidado que começa por você",
+      "Escuta de verdade",
+      "Rotina capilar",
+      "Próximos passos",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "sobre",
+    "width": 1051,
+    "height": 800,
+    "viewport": [
+      1051,
+      800
+    ],
+    "documentWidth": 1051,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sobre-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Escuta antes da orientação",
+      "Um espaço para ser ouvido",
+      "Entender sua história",
+      "Olhar com atenção",
+      "Orientar o caminho",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "abordagem",
+    "width": 1051,
+    "height": 800,
+    "viewport": [
+      1051,
+      800
+    ],
+    "documentWidth": 1051,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/abordagem-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Como funciona o cuidado",
+      "Seu caminho de cuidado",
+      "01 · Conversa inicial",
+      "02 · Contexto e rotina",
+      "03 · Próximos passos",
+      "04 · Acompanhamento",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "contato",
+    "width": 1051,
+    "height": 800,
+    "viewport": [
+      1051,
+      800
+    ],
+    "documentWidth": 1051,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/contato-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Vamos conversar?",
+      "Como falar comigo",
+      "Conte-me o que percebeu",
+      "Consulte os horários",
+      "Cuide da sua saúde",
+      "FALE COMIGO",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": "desktop",
+    "errors": []
+  },
+  {
+    "name": "index",
+    "width": 844,
+    "height": 390,
+    "viewport": [
+      844,
+      390
+    ],
+    "documentWidth": 844,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/isadora-guirelli-consultorio.png",
+        "ok": true
+      }
+    ],
+    "sections": 6,
+    "fonts": "loaded",
+    "headings": [
+      "SAÚDE CAPILAR",
+      "ESCUTE OS SINAIS. CUIDE DE VOCÊ.",
+      "SINAIS DE ATENÇÃO",
+      "QUEDA CAPILAR",
+      "MENOS VOLUME",
+      "COURO CABELUDO",
+      "SUA HISTÓRIA",
+      "OLHAR ATENTO",
+      "CUIDADOS DO DIA A DIA",
+      "PRÓXIMOS PASSOS",
+      "COMO FUNCIONA",
+      "CONVERSA INICIAL",
+      "CONTEXTO E ROTINA",
+      "CAMINHO DE CUIDADO",
+      "ACOMPANHAMENTO",
+      "VAMOS CONVERSAR?",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "sinais",
+    "width": 844,
+    "height": 390,
+    "viewport": [
+      844,
+      390
+    ],
+    "documentWidth": 844,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sinais-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "O que mudou?",
+      "O que observar",
+      "Queda de fios",
+      "Afinamento e volume",
+      "Couro cabeludo",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "cuidados",
+    "width": 844,
+    "height": 390,
+    "viewport": [
+      844,
+      390
+    ],
+    "documentWidth": 844,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/cuidados-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Cuidar começa por entender",
+      "Um cuidado que começa por você",
+      "Escuta de verdade",
+      "Rotina capilar",
+      "Próximos passos",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "sobre",
+    "width": 844,
+    "height": 390,
+    "viewport": [
+      844,
+      390
+    ],
+    "documentWidth": 844,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/sobre-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Escuta antes da orientação",
+      "Um espaço para ser ouvido",
+      "Entender sua história",
+      "Olhar com atenção",
+      "Orientar o caminho",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "abordagem",
+    "width": 844,
+    "height": 390,
+    "viewport": [
+      844,
+      390
+    ],
+    "documentWidth": 844,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/abordagem-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Como funciona o cuidado",
+      "Seu caminho de cuidado",
+      "01 · Conversa inicial",
+      "02 · Contexto e rotina",
+      "03 · Próximos passos",
+      "04 · Acompanhamento",
+      "Quer conversar comigo?",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  },
+  {
+    "name": "contato",
+    "width": 844,
+    "height": 390,
+    "viewport": [
+      844,
+      390
+    ],
+    "documentWidth": 844,
+    "overflows": [],
+    "clippedText": [],
+    "images": [
+      {
+        "src": "assets/logo-isadora-guirelli.png",
+        "ok": true
+      },
+      {
+        "src": "assets/contato-ilustracao.jpg",
+        "ok": true
+      }
+    ],
+    "sections": 3,
+    "fonts": "loaded",
+    "headings": [
+      "Vamos conversar?",
+      "Como falar comigo",
+      "Conte-me o que percebeu",
+      "Consulte os horários",
+      "Cuide da sua saúde",
+      "FALE COMIGO",
+      "WHATSAPP",
+      "INSTAGRAM",
+      "SAÚDE CAPILAR COM ATENÇÃO À SUA HISTÓRIA."
+    ],
+    "menuTest": {
+      "expanded": "true",
+      "count": 5,
+      "closed": "false"
+    },
+    "errors": []
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "arquivo": "abordagem.html",
+    "inalterado": true,
+    "sha256_original": "4ab2136ff7a59496fb1f377a056d8c7cb96cc0d78cf936afec6bb526d42ffa82",
+    "sha256_entregue": "4ab2136ff7a59496fb1f377a056d8c7cb96cc0d78cf936afec6bb526d42ffa82"
+  },
+  {
+    "arquivo": "menu.js",
+    "inalterado": false,
+    "sha256_original": "9d8659a9d9559ec13c1c88a3a1fe477b0baf66cd62d0815d9c392cd3c5b2a430",
+    "sha256_entregue": "97c8b943d316d9c616b61dc4ae85ccf1d39e2f2f53c19a335d391459575dbfc8"
+  },
+  {
+    "arquivo": "sobre.html",
+    "inalterado": true,
+    "sha256_original": "39b5dcaa0e17f3c56b66f2d78e69e8542c48f335899d5dc677958e8256acb9ff",
+    "sha256_entregue": "39b5dcaa0e17f3c56b66f2d78e69e8542c48f335899d5dc677958e8256acb9ff"
+  },
+  {
+    "arquivo": "REVISAO_TEXTOS.md",
+    "inalterado": true,
+    "sha256_original": "ea21f9a6b30b042cadafed4472c2c64b067c38ac8109b8887327531fa87fbf40",
+    "sha256_entregue": "ea21f9a6b30b042cadafed4472c2c64b067c38ac8109b8887327531fa87fbf40"
+  },
+  {
+    "arquivo": "README.md",
+    "inalterado": false,
+    "sha256_original": "6b08b64665a9b37dec506cfdb4e8393140f41e95f2a8ac24ef8818e79f459de4",
+    "sha256_entregue": "3b56a9655964e03c71e3045e0f6f0952068e2bf50d184087eaeb43551c20886e"
+  },
+  {
+    "arquivo": "package.json",
+    "inalterado": true,
+    "sha256_original": "41597688c4e463566f3f39c26b55c74e38e9ec8e0f55e38fbea49fb0347efa7a",
+    "sha256_entregue": "41597688c4e463566f3f39c26b55c74e38e9ec8e0f55e38fbea49fb0347efa7a"
+  },
+  {
+    "arquivo": "index.html",
+    "inalterado": true,
+    "sha256_original": "3ca8841caf87ce6f755bf251ce16da3a614dfc3c462fca6ac4d0500b77789023",
+    "sha256_entregue": "3ca8841caf87ce6f755bf251ce16da3a614dfc3c462fca6ac4d0500b77789023"
+  },
+  {
+    "arquivo": "whatsapp.js",
+    "inalterado": true,
+    "sha256_original": "38e0e646b8233f0eb5575882c7d0b444864d955641d07d1169c8133011265deb",
+    "sha256_entregue": "38e0e646b8233f0eb5575882c7d0b444864d955641d07d1169c8133011265deb"
+  },
+  {
+    "arquivo": "cuidados.html",
+    "inalterado": true,
+    "sha256_original": "695e11d313edd18cad398a0ce498a9446ee2ee99d358b4db94f1d1963cd70bbd",
+    "sha256_entregue": "695e11d313edd18cad398a0ce498a9446ee2ee99d358b4db94f1d1963cd70bbd"
+  },
+  {
+    "arquivo": "contato.html",
+    "inalterado": true,
+    "sha256_original": "73db554fd042bd9d124994508210a3104259141515ac3124b0a7a23c46fa9fda",
+    "sha256_entregue": "73db554fd042bd9d124994508210a3104259141515ac3124b0a7a23c46fa9fda"
+  },
+  {
+    "arquivo": "server.mjs",
+    "inalterado": true,
+    "sha256_original": "309992adca772cdf5b33677efae4b309ed1ea546973a8bb846bf1a421f10bdf2",
+    "sha256_entregue": "309992adca772cdf5b33677efae4b309ed1ea546973a8bb846bf1a421f10bdf2"
+  },
+  {
+    "arquivo": "styles.css",
+    "inalterado": false,
+    "sha256_original": "52567ec8c3b05c37aaff01ef95955a0f27914c3fdd1667798ff1c3a6b8f2eb9f",
+    "sha256_entregue": "0ef90b4774631779eddad0e17b81d319aca10b4e81ccefaa0d39094ac3c65336"
+  },
+  {
+    "arquivo": "sinais.html",
+    "inalterado": true,
+    "sha256_original": "de329e745905496d6c4886970a749db17f4b47ce2e7fd5c73f2d6058a4983570",
+    "sha256_entregue": "de329e745905496d6c4886970a749db17f4b47ce2e7fd5c73f2d6058a4983570"
+  },
+  {
+    "arquivo": "assets/sinais-ilustracao.jpg",
+    "inalterado": true,
+    "sha256_original": "15c46464d3934d9b219aa75111a8147bdec0f3aba804f1898edb588b85d9a81c",
+    "sha256_entregue": "15c46464d3934d9b219aa75111a8147bdec0f3aba804f1898edb588b85d9a81c"
+  },
+  {
+    "arquivo": "assets/logo-isadora-guirelli.png",
+    "inalterado": true,
+    "sha256_original": "57c29ac740844aa5ee48888bcca95f38b548546a04ed09edafe480a589e8467e",
+    "sha256_entregue": "57c29ac740844aa5ee48888bcca95f38b548546a04ed09edafe480a589e8467e"
+  },
+  {
+    "arquivo": "assets/abordagem-ilustracao.jpg",
+    "inalterado": true,
+    "sha256_original": "c70629e28cf082b6eeba5ece83305b039dd4876918e29faec2e5ba011bbac394",
+    "sha256_entregue": "c70629e28cf082b6eeba5ece83305b039dd4876918e29faec2e5ba011bbac394"
+  },
+  {
+    "arquivo": "assets/sobre-ilustracao.jpg",
+    "inalterado": true,
+    "sha256_original": "2261c3fce85aba54aec6ac701e80c663f5f843f744b2f75494bf691d9aabb964",
+    "sha256_entregue": "2261c3fce85aba54aec6ac701e80c663f5f843f744b2f75494bf691d9aabb964"
+  },
+  {
+    "arquivo": "assets/hero-capilar.png",
+    "inalterado": true,
+    "sha256_original": "f3551675bccd4df842929b0f766cb994679dc2229bd0dea2b40be72193643033",
+    "sha256_entregue": "f3551675bccd4df842929b0f766cb994679dc2229bd0dea2b40be72193643033"
+  },
+  {
+    "arquivo": "assets/cuidados-ilustracao.jpg",
+    "inalterado": true,
+    "sha256_original": "1fbe36e09052db50b3f39e4b834c28df3dbb98c661f575e16913ced08d7ddac1",
+    "sha256_entregue": "1fbe36e09052db50b3f39e4b834c28df3dbb98c661f575e16913ced08d7ddac1"
+  },
+  {
+    "arquivo": "assets/contato-ilustracao.jpg",
+    "inalterado": true,
+    "sha256_original": "6b45c10f6443201f2ecaf520d7501441b95c448198cc23fc7080ed8b06ce1fe0",
+    "sha256_entregue": "6b45c10f6443201f2ecaf520d7501441b95c448198cc23fc7080ed8b06ce1fe0"
+  },
+  {
+    "arquivo": "assets/isadora-guirelli-consultorio.png",
+    "inalterado": true,
+    "sha256_original": "50708c41e2c2d4d49acb625617a916f385fbc96ef2e3bcc7d0e8b3304a62ae10",
+    "sha256_entregue": "50708c41e2c2d4d49acb625617a916f385fbc96ef2e3bcc7d0e8b3304a62ae10"
+  }
+]
