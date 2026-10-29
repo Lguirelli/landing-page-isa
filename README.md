@@ -4,13 +4,9 @@ Site estático com página inicial e cinco subpáginas: Sinais, Cuidados, Sobre,
 
 Para visualizar localmente, execute `npm run dev` e abra `http://localhost:4173`. Também é possível abrir `index.html` diretamente no navegador.
 
-O WhatsApp oficial está ativo: **(19) 99910-3510**, centralizado em `whatsapp.js`. O Instagram [@isadoraguirelli](https://www.instagram.com/isadoraguirelli/) permanece como alternativa. Os botões de contato abrem uma nova aba.
+O contato externo usa o perfil público [@isadoraguirelli](https://www.instagram.com/isadoraguirelli/). Antes de publicar, Isadora deve revisar a descrição do atendimento, a disponibilidade em Serra Negra e confirmar que o Instagram é o canal desejado.
 
-## Revisão visual e responsividade — 29/10/2026
-
-Consulte [RELATORIO_RESPONSIVIDADE.md](RELATORIO_RESPONSIVIDADE.md) e abra [a galeria de antes/depois](relatorio/index.html). Os seis HTMLs e todas as imagens são idênticos aos do ZIP recebido; as correções do site estão em `styles.css` e `menu.js`.
-
-Para repetir os testes, mantenha `npm run dev` em um terminal. Em outro, instale as ferramentas opcionais com `npm install --no-save playwright` e `npx playwright install chromium`. Execute `node tests/responsividade.cjs depois` e `node tests/interacoes.cjs`. A prévia padrão dos testes é `http://127.0.0.1:4173/`; use `BASE_URL` para outro endereço. `BROWSER_CHANNEL=msedge` é opcional para testar com o Edge instalado. Os testes de contato interceptam os destinos externos e não enviam mensagens.
+O WhatsApp aparece como “Em breve”, sem link ativo. Para ativá-lo, preencha `whatsappNumber` em `whatsapp.js` com o número oficial no formato `55` + DDD + número (somente dígitos). O link `wa.me` será habilitado nas páginas inicial e de contato. Não publique um número sem confirmação de Isadora.
 
 A fotografia de Isadora em seu consultório aparece apenas na página inicial. As cinco subpáginas usam ilustrações editoriais neutras criadas para este site. O conteúdo é informativo; não inclui promessas de resultado nem substitui avaliação dermatológica.
 

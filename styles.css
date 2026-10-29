@@ -9,6 +9,8 @@
   --body: Montserrat, Arial, sans-serif;
   --type-body: clamp(0.9375rem, 0.86rem + 0.35vw, 1.125rem);
   --type-small: clamp(0.875rem, 0.82rem + 0.25vw, 1rem);
+  /* Uma única escala para intervalos entre seções e cards. */
+  --layout-gap: clamp(12px, 1.5vw, 20px);
 }
 * {
   box-sizing: border-box;
@@ -38,6 +40,13 @@ img {
   width: min(100%, 1320px);
   margin: auto;
   padding-inline: clamp(20px, 4vw, 64px);
+}
+/* Distância regular entre todos os blocos de conteúdo do site.
+   Os intervalos internos dos componentes continuam independentes. */
+main.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-gap);
 }
 a:focus-visible,
 button:focus-visible {
@@ -217,7 +226,7 @@ button:focus-visible {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   padding-block: clamp(26px, 3vw, 42px);
-  margin-bottom: clamp(30px, 4vw, 52px);
+  margin-bottom: 0;
 }
 .stat {
   padding-inline: clamp(18px, 3.2vw, 50px);
@@ -274,8 +283,8 @@ button:focus-visible {
 .features {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: clamp(12px, 1.5vw, 20px);
-  margin-bottom: clamp(26px, 3vw, 46px);
+  gap: var(--layout-gap);
+  margin-bottom: 0;
 }
 .feature {
   position: relative;
@@ -320,8 +329,8 @@ button:focus-visible {
 .service-row {
   display: grid;
   grid-template-columns: 31% minmax(0, 1fr);
-  gap: clamp(12px, 1.5vw, 20px);
-  margin-bottom: 8px;
+  gap: var(--layout-gap);
+  margin-bottom: 0;
 }
 .service-label {
   background: var(--accent);
@@ -738,7 +747,7 @@ button:focus-visible {
   background: var(--primary);
   color: var(--bg);
   padding: clamp(58px, 8vw, 110px) clamp(24px, 6vw, 80px);
-  margin-bottom: clamp(32px, 5vw, 70px);
+  margin-bottom: 0;
 }
 .page-hero .eyebrow {
   color: var(--soft);
@@ -755,7 +764,11 @@ button:focus-visible {
   margin: 0;
 }
 .page-section {
-  padding-bottom: clamp(36px, 5vw, 70px);
+  padding-bottom: 0;
+}
+/* A última nota não deve acrescentar um espaço além do gap da seção. */
+.page-section > :last-child {
+  margin-bottom: 0;
 }
 .page-section h2 {
   font: 600 clamp(2.6rem, 5vw, 5rem)/0.96 var(--display);
@@ -769,8 +782,8 @@ button:focus-visible {
 .detail-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
-  margin: 28px 0;
+  gap: var(--layout-gap);
+  margin: var(--layout-gap) 0;
 }
 .detail-card {
   background: var(--surface);
@@ -813,7 +826,7 @@ button:focus-visible {
   align-items: center;
   justify-content: space-between;
   gap: 22px;
-  margin-bottom: clamp(36px, 5vw, 70px);
+  margin-bottom: 0;
 }
 .cta-band h2 {
   font: 600 clamp(2.2rem, 4vw, 4.4rem)/0.95 var(--display);
@@ -835,10 +848,10 @@ button:focus-visible {
 }
 .external-contact {
   padding: 0;
-  margin: clamp(35px, 5vw, 65px) 0;
+  margin: 0;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: clamp(12px, 1.5vw, 20px);
+  gap: var(--layout-gap);
   align-items: stretch;
 }
 .contact-intro {
@@ -969,7 +982,7 @@ button:focus-visible {
 }
 
 .sources {
-  margin: 0 0 clamp(36px, 5vw, 70px);
+  margin: 0;
   border-top: 1px solid #01474455;
   padding: 22px 0;
 }
@@ -1107,160 +1120,5 @@ p {
   }
   .external-contact h2 {
     font-size: clamp(2rem, 8vw, 2.8rem);
-  }
-}
-
-/* Revisão visual: dimensões baseadas no espaço real de cada componente. */
-.hero-copy {
-  container-type: inline-size;
-}
-@media (min-width: 761px) {
-  .hero-copy {
-    width: 48%;
-  }
-  .hero-title {
-    font-size: clamp(3rem, 24cqi, 10rem);
-  }
-  .hero p {
-    max-width: 100%;
-  }
-}
-.page-hero-copy {
-  container-type: inline-size;
-}
-.page-hero .page-hero-copy h1 {
-  font-size: clamp(1.75rem, 13.5cqi, 5.8rem);
-  line-height: 0.98;
-  max-width: none;
-  overflow-wrap: normal;
-}
-.section-head > * {
-  min-width: 0;
-}
-.section-head a {
-  flex-shrink: 0;
-}
-.round {
-  flex: none;
-}
-.feature {
-  gap: 24px;
-}
-.service-label {
-  flex-wrap: wrap;
-  gap: 12px;
-  container-type: inline-size;
-}
-.service-label span {
-  font-size: clamp(2rem, 15cqi, 3.5rem);
-}
-.process h3 {
-  font-size: 0.875rem;
-  overflow-wrap: anywhere;
-}
-.contact-intro {
-  container-type: inline-size;
-}
-.contact-intro h2 {
-  font-size: clamp(2rem, 15cqi, 3.8rem);
-  overflow-wrap: normal;
-}
-.view-work,
-.contact-card a,
-.cta-band a,
-.contact-link {
-  max-width: 100%;
-  white-space: normal;
-}
-.contact-card a,
-.cta-band a,
-.contact-link {
-  overflow-wrap: anywhere;
-}
-.cta-band a {
-  flex-shrink: 0;
-}
-.detail-grid:has(> :nth-child(4)) {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-.detail-grid:has(> :nth-child(4)) .detail-card {
-  container-type: inline-size;
-}
-.detail-grid:has(> :nth-child(4)) .detail-card h3 {
-  font-size: clamp(1.25rem, 10cqi, 2.75rem);
-}
-.detail-grid:has(> :nth-child(4)) > .detail-card:last-child {
-  grid-column: auto;
-}
-@media (max-width: 1200px) {
-  .process {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    row-gap: 20px;
-  }
-  .process article:first-child {
-    grid-column: 1 / -1;
-    border: 0;
-    padding: 0 0 20px;
-  }
-  .process article:nth-child(odd) {
-    border-right: 0;
-  }
-}
-@media (max-width: 1050px) {
-  .nav {
-    max-height: calc(100vh - 79px);
-    max-height: calc(100dvh - 79px);
-    overflow-y: auto;
-  }
-  .service-row {
-    grid-template-columns: 1fr;
-  }
-  .service-label {
-    min-height: 135px;
-  }
-  .external-contact {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .contact-intro {
-    grid-column: 1 / -1;
-  }
-  .footer {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .footer > div:first-child {
-    grid-column: 1 / -1;
-  }
-}
-@media (max-width: 760px) {
-  .hero-photo-panel {
-    display: none;
-  }
-}
-@media (max-width: 520px) {
-  .detail-grid:has(> :nth-child(4)) {
-    grid-template-columns: 1fr;
-  }
-  .section-head {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
-  .section-head a {
-    max-width: 100%;
-    text-align: left;
-  }
-  .process,
-  .footer,
-  .external-contact {
-    grid-template-columns: 1fr;
-  }
-  .process article {
-    border-right: 0;
-    padding-inline: 0;
-  }
-  .process article:first-child,
-  .footer > div:first-child,
-  .contact-intro {
-    grid-column: auto;
   }
 }
