@@ -1,1 +1,17 @@
-{"name":"landing-isa-responsive","private":true,"version":"1.0.0","scripts":{"dev":"node server.mjs"}}
+{
+  "name": "isadora-guirelli-site",
+  "private": true,
+  "version": "3.8.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs --port 4389",
+    "build": "node build.mjs",
+    "sync": "node sync-components.mjs",
+    "test": "node tests/validacao-estatica.mjs && node tests/hairline-v3.7.mjs && node tests/atalhos-v3.8.mjs",
+    "test:e2e": "node tests/e2e.cjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "playwright": "^1.64.1"
+  }
+}

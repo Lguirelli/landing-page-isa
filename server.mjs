@@ -9,6 +9,7 @@ const types = {
   ".jpg": "image/jpeg",
   ".png": "image/png",
   ".svg": "image/svg+xml",
+  ".webp": "image/webp",
 };
 const port = Number(
   process.argv.find((v, i, a) => a[i - 1] === "--port") || 4173,
