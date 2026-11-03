@@ -33,6 +33,7 @@ a,button,summary { -webkit-tap-highlight-color: transparent; }
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
 .site-footer :focus-visible,.external-contact :focus-visible,.service-label :focus-visible { outline-color: #c9e6a9; }
 [hidden] { display: none !important; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 ::selection { background: var(--soft); color: var(--primary); }
 .wrap { width: min(calc(100% - 104px), 1260px); margin-inline: auto; }
 .skip { position: fixed; top: -100px; left: 16px; z-index: 1000; padding: 12px 20px; background: var(--primary); color: #fff; border-radius: 0 0 8px 8px; }
@@ -68,7 +69,7 @@ main.wrap > * { min-width: 0; }
 .nav > a::after { content: ''; position: absolute; height: 1px; bottom: 6px; left: 0; right: 100%; background: var(--accent); transition: right .25s var(--ease); }
 .nav > a:hover,.nav > a[aria-current="page"] { color: var(--primary); }
 .nav > a:hover::after,.nav > a[aria-current="page"]::after { right: 0; }
-.nav small,.nav-mobile-note { display: none; }
+.nav small,.nav-mobile-note,.mobile-cta { display: none; }
 .header-actions { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
 .talk,.contact-link,.cta-band a { display: inline-flex; align-items: center; justify-content: center; gap: 16px; min-height: 48px; border: 1px solid transparent; border-radius: 4px; padding: 13px 19px; background: var(--primary); color: #fff; font: 700 11px/1.45 var(--body); letter-spacing: .015em; transition: background-color .2s ease, transform .2s var(--ease), box-shadow .2s ease; }
 .talk:hover,.contact-link:hover,.cta-band a:hover { background: var(--primary-deep); box-shadow: 0 6px 17px rgba(0,58,55,.13); }
@@ -166,6 +167,7 @@ main.wrap > * { min-width: 0; }
 .contact-intro p { margin: 0; font-size: 14px; color: #e0e8df; }
 .contact-intro .view-work { color: #f8f7ef; }
 .contact-intro .round { border-color: rgba(255,255,255,.45); }
+.contact-intro .view-work:hover .round { background: rgba(255,255,255,.14); }
 .contact-card { display: flex; flex-direction: column; align-items: flex-start; min-width: 0; padding: clamp(23px,3vw,34px); border: 1px solid rgba(220,230,218,.42); border-radius: 4px; }
 .contact-card--whatsapp { background: var(--bg); color: var(--primary); border-color: var(--bg); }
 .contact-card .eyebrow { color: var(--soft); font-size: 10px; }
@@ -253,7 +255,12 @@ main.wrap > * { min-width: 0; }
   .nav > a { min-height: 64px; border-bottom: 1px solid var(--line); font-size: 15px; line-height: 1.4; font-weight: 700; }
   .nav > a::after { display: none; }
   .nav > a small { display: block; margin-top: 4px; font-size: 11px; line-height: 1.4; font-weight: 500; color: var(--muted); }
-  .nav > a[aria-current] { color: var(--accent-text); }
+  .nav > a[aria-current] { color: var(--accent-text); padding-left: 18px; }
+  /* Marcador de "você está aqui": não depende só da cor. */
+  .nav > a[aria-current]::before { content: ''; position: absolute; left: 0; top: 50%; width: 7px; height: 7px; margin-top: -3.5px; border-radius: 50%; background: var(--accent); }
+  /* Véu atrás do menu aberto: separa as camadas e indica que tocar fora fecha. */
+  html.js body::after { content: ''; position: fixed; inset: 0; z-index: 70; background: rgba(0, 40, 38, .2); opacity: 0; pointer-events: none; transition: opacity .2s ease; }
+  html.menu-open body::after { opacity: 1; pointer-events: auto; }
   .nav-mobile-note { display: flex; flex-direction: column; gap: 8px; padding-top: 18px; }
   .nav-mobile-note > span { font: 500 24px/1.05 var(--display); color: var(--primary); }
   .nav-mobile-note a { display: inline-flex; align-items: center; gap: 8px; min-height: 42px; font-size: 11px; font-weight: 700; color: var(--primary); }
@@ -281,6 +288,11 @@ main.wrap > * { min-width: 0; }
   .brand img { width: 198px; }
   html.js .nav { width: calc(100vw - 40px); max-height: calc(100dvh - 90px); overflow-y: auto; overscroll-behavior: contain; }
   .header-actions .talk { display: none; }
+  /* Sem o "Fale comigo" no topo, o WhatsApp fica a um toque enquanto nenhum outro link dele está visível. */
+  html.js .mobile-cta { position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 75; display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 54px; padding: 14px 20px; border-radius: 10px; background: var(--primary); color: #fff; font: 700 12px/1.4 var(--body); box-shadow: 0 10px 28px rgba(0,58,55,.22); opacity: 0; visibility: hidden; transform: translateY(calc(100% + 16px)); transition: transform .32s var(--ease), opacity .2s ease, visibility 0s linear .32s; }
+  html.js .mobile-cta.is-visible { opacity: 1; visibility: visible; transform: none; transition: transform .32s var(--ease), opacity .2s ease, visibility 0s; }
+  .mobile-cta > span { font-size: 18px; line-height: 1; }
+  .mobile-cta:focus-visible { outline-color: #c9e6a9; }
   .hero { grid-template-columns: 1fr; padding-top: 38px; gap: 28px; }
   .hero-copy { padding: 0; }
   .hero-title { font-size: clamp(81px,16vw,124px); margin-block: 18px 25px; }
@@ -327,7 +339,7 @@ main.wrap > * { min-width: 0; }
   .view-work { padding-left: 0; }
   .hero-photo { aspect-ratio: 4 / 5; object-position: 50% 3%; }
   .quick-path-title { font-size: 26px; }
-  .quick-path-links small { font-size: 10px; }
+  .quick-path-links small { font-size: 11.5px; }
   .quick-path-links a { min-height: 90px; padding: 16px 14px; }
   .stat { gap: 10px; padding: 20px 18px 18px; }
   .stat h3 { font-size: 28px; }

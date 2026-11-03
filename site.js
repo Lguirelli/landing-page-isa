@@ -9,6 +9,7 @@ if (menuButton && nav && header) {
   const setMenuOpen = (open) => {
     const enabled = open && mobile.matches;
     nav.classList.toggle('open', enabled);
+    document.documentElement.classList.toggle('menu-open', enabled);
     menuButton.setAttribute('aria-expanded', String(enabled));
     menuButton.setAttribute('aria-label', enabled ? 'Fechar menu' : 'Abrir menu');
     menuButton.querySelector('.menu-toggle-label').textContent = enabled ? 'Fechar' : 'Menu';
@@ -30,6 +31,38 @@ if (menuButton && nav && header) {
     if (!header.contains(event.relatedTarget)) setMenuOpen(false);
   });
   mobile.addEventListener('change', () => setMenuOpen(false));
+}
+
+// Atalho de WhatsApp no celular: aparece depois da abertura e some quando outro link do WhatsApp
+// (ou o rodapé) já está na tela, para nunca duplicar a ação nem cobrir conteúdo final.
+const whatsappSource = document.querySelector('[data-whatsapp-link]');
+if (whatsappSource && 'IntersectionObserver' in window) {
+  const cta = document.createElement('a');
+  cta.className = 'mobile-cta';
+  cta.href = whatsappSource.href;
+  cta.target = '_blank';
+  cta.rel = 'noopener noreferrer';
+  cta.innerHTML = 'Conversar pelo WhatsApp <span aria-hidden="true">→</span><span class="sr-only"> (abre em nova aba)</span>';
+  document.body.append(cta);
+
+  const blockers = new Set();
+  let pastOpening = false;
+  const refresh = () => {
+    const menuOpen = document.documentElement.classList.contains('menu-open');
+    cta.classList.toggle('is-visible', pastOpening && blockers.size === 0 && !menuOpen);
+  };
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => (entry.isIntersecting ? blockers.add(entry.target) : blockers.delete(entry.target)));
+    refresh();
+  });
+  document.querySelectorAll('main [data-whatsapp-link], .site-footer').forEach((el) => observer.observe(el));
+  const onScroll = () => {
+    const next = window.scrollY > window.innerHeight * 0.6;
+    if (next !== pastOpening) { pastOpening = next; refresh(); }
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  new MutationObserver(refresh).observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+  onScroll();
 }
 
 // Barra de leitura discreta: animada por transform, sem causar recálculo de layout.
