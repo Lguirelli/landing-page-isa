@@ -1,5 +1,9 @@
 /* Isadora Guirelli · Design system 3.0
    Editorial, sereno e acessível. O conteúdo não depende de animações ou JS. */
+/* Fontes hospedadas no próprio site (SIL OFL 1.1, licenças em assets/fonts):
+   nenhum dado do visitante é enviado a terceiros ao carregar a página. */
+@font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 400 700; font-display: swap; src: url('assets/fonts/cormorant-garamond-latin.woff2') format('woff2'); }
+@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 400 700; font-display: swap; src: url('assets/fonts/montserrat-latin.woff2') format('woff2'); }
 :root {
   --primary: #014744;
   --primary-deep: #003a37;
@@ -219,6 +223,14 @@ main.wrap > * { min-width: 0; }
 .next-link-label { font: 500 clamp(28px,3vw,41px)/1.05 var(--display); color: var(--primary); }
 .next-link-bottom { display: flex; justify-content: space-between; gap: 15px; align-items: center; font-size: 11px; font-weight: 600; color: var(--muted); }
 .next-link-bottom span { color: var(--primary); font-size: 19px; }
+/* Política de privacidade: leitura contínua, mesma tipografia do site */
+.legal { max-width: 72ch; padding-top: 10px; }
+.legal h1 { margin: 21px 0 12px; font: 500 clamp(45px,5.4vw,80px)/1 var(--display); letter-spacing: -.04em; color: var(--primary); }
+.legal h2 { margin: 46px 0 14px; font: 500 clamp(28px,2.8vw,38px)/1.1 var(--display); letter-spacing: -.015em; color: var(--primary); }
+.legal p { color: var(--muted); font-size: 15px; line-height: 1.85; }
+.legal p a { color: var(--accent-text); text-decoration: underline; text-underline-offset: 4px; }
+.legal .legal-updated { font-size: 12px; font-weight: 600; }
+.page-hero--notfound { grid-template-columns: minmax(0,1fr); padding-block: clamp(40px,8vw,110px); }
 /* Fechamento com hierarquia e retorno ao início */
 .site-footer { margin-top: var(--space); padding: clamp(55px,7vw,100px) 0 22px; background: var(--primary); color: #f4f5ed; }
 .site-footer .eyebrow { color: #b9d5ba; }

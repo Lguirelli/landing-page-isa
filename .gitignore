@@ -1,0 +1,15 @@
+# Este repositório é publicado inteiro pelo GitHub Pages: nada além do site deve entrar aqui.
+.env
+.env.*
+*.log
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
+.claude/
+.vscode/
+.idea/
+node_modules/
+dist/
+relatorio/

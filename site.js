@@ -42,7 +42,13 @@ if (whatsappSource && 'IntersectionObserver' in window) {
   cta.href = whatsappSource.href;
   cta.target = '_blank';
   cta.rel = 'noopener noreferrer';
-  cta.innerHTML = 'Conversar pelo WhatsApp <span aria-hidden="true">→</span><span class="sr-only"> (abre em nova aba)</span>';
+  const arrow = document.createElement('span');
+  arrow.setAttribute('aria-hidden', 'true');
+  arrow.textContent = '→';
+  const hint = document.createElement('span');
+  hint.className = 'sr-only';
+  hint.textContent = ' (abre em nova aba)';
+  cta.append('Conversar pelo WhatsApp ', arrow, hint);
   document.body.append(cta);
 
   const blockers = new Set();
