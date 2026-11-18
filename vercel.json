@@ -4,6 +4,20 @@
   "buildCommand": "node scripts/build.mjs",
   "outputDirectory": "dist",
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "site-isa-eight.vercel.app" }],
+      "destination": "https://isadoraguirelli.com.br/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.isadoraguirelli.com.br" }],
+      "destination": "https://isadoraguirelli.com.br/:path*",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
