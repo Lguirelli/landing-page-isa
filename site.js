@@ -1,4 +1,14 @@
 document.documentElement.classList.add('js');
+
+// Skeleton: as imagens grandes mostram um brilho até terminar de carregar.
+// Imagens que já vieram do cache não piscam, porque nem recebem a classe.
+document.querySelectorAll('.hero-photo, .page-hero-image').forEach((img) => {
+  if (img.complete && img.naturalWidth) return;
+  img.classList.add('is-loading');
+  const done = () => img.classList.remove('is-loading');
+  img.addEventListener('load', done, { once: true });
+  img.addEventListener('error', done, { once: true });
+});
 /** Navegação progressiva: o HTML permanece navegável sem JavaScript. */
 const menuButton = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.nav');

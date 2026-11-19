@@ -404,6 +404,13 @@ main.wrap > * { min-width: 0; }
   .signals-section .section-head a:hover span { transform: translateX(3px); }
   .next-links-grid a:hover { cursor: pointer; }
 }
+/* Skeleton das imagens grandes: brilho sobre o fundo verde enquanto a imagem baixa.
+   O site.js tira a classe no load; com movimento reduzido fica só o bloco estático. */
+.is-loading { background-image: linear-gradient(100deg, transparent 30%, rgba(255,255,255,.55) 50%, transparent 70%); background-size: 220% 100%; background-repeat: no-repeat; background-position: 130% 0; }
+@media (prefers-reduced-motion: no-preference) {
+  .is-loading { animation: skeleton-shimmer 1.4s ease-in-out infinite; }
+  @keyframes skeleton-shimmer { from { background-position: 130% 0; } to { background-position: -30% 0; } }
+}
 @media (prefers-reduced-motion: no-preference) {
   .hero-copy,.page-hero-copy { animation: editorial-entrance .55s var(--ease) both; }
   @keyframes editorial-entrance { from { opacity: .65; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
